@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CodTech E-Learning Platform</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>CodTech E-Learning</h1>
+    <nav>
+      <ul>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#progress">Progress</a></li>
+        <li><a href="#video">Video</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="courses">
+      <h2>Available Courses</h2>
+      <div class="course-list">
+        <div class="course-card">
+          <h3>HTML & CSS Basics</h3>
+          <p>Learn how to build beautiful websites with HTML & CSS.</p>
+        </div>
+        <div class="course-card">
+          <h3>JavaScript Essentials</h3>
+          <p>Master the fundamentals of JavaScript programming.</p>
+        </div>
+        <div class="course-card">
+          <h3>Responsive Web Design</h3>
+          <p>Make your websites look great on any device.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="progress">
+      <h2>Your Progress</h2>
+      <div class="progress-bar">
+        <label for="html-css">HTML & CSS Basics</label>
+        <progress id="html-css" value="70" max="100"></progress>
+
+        <label for="js">JavaScript Essentials</label>
+        <progress id="js" value="45" max="100"></progress>
+
+        <label for="responsive">Responsive Web Design</label>
+        <progress id="responsive" value="30" max="100"></progress>
+      </div>
+    </section>
+
+    <section id="video">
+      <h2>Course Video</h2>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id" title="Course Video" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CodTech E-Learning Platform. All rights reserved.</p>
+  </footer>
+</body>
+</html>
